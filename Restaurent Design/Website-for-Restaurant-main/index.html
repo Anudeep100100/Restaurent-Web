@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="icon" href="./Images/favicon.ico">
+
+    <!-- for using bootstrap -->
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    
+    <meta charset="UTF-8">
+
+      <!-- linking styles.css -->
+    <link rel="stylesheet" href="./CSS/styles.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">    
+
+    <!-- Title of the WebPage -->
+    <title class="title" hidden>TasteGood</title>
+</head>
+<body>
+  <!-- nav bar -->
+    <div class="container-fluid navbar-bgcolor">
+      <nav class="navbar navbar-expand-xl navbar-bgcolor navbar-dark pt-2 pb-2">
+        <img src="./Images/Favicon-Transparent-white.png" alt="logo" class="ms-3 me-2" height="48px" width="52px">
+        <a href="../index.html" class="navbar-brand  mb-0 ms-2"> TasteGood</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hamburger" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id ="hamburger">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item ni">
+              <a href="#home" id="btn10" class="nav-link" >Home</a>
+            </li>
+            <li class="nav-item ni">
+              <a href="./Nav-Links/Menu.html" class="nav-link" >Menu</a>
+            </li>
+            <li class="nav-item ni">
+              <a href="./Nav-Links/Branches.html" class="nav-link" i>Branches</a>
+            </li>
+            <li class="nav-item ni">
+              <a href="./Nav-Links/About.html" class="nav-link"  >About</a>
+            </li>
+            
+            <li class="nav-item ni">
+              <a href="./Nav-Links/Contact.html"  class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- intro div -->
+    <div class="container intro-div" id = "home">
+      <h1 style="font-size:100px">Welcome!</h1>
+      <p>At TasteGood,<br/>We make taste healthier.</p>
+    </div>
+
+    <!--  carousel -->
+    <div id="intro-carousel" class="carousel slide carousel-fade mycar" data-bs-ride="carousel" data-bs-interval="3000">
+      <!-- carousel indicator(at center-bottom that indicates current carousel) -->
+      <div class="carousel-indicators">
+<button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- carousel-inner that holds main content -->
+      <div class="carousel-inner" style="max-height: calc(100vh - 4rem);">
+        <div class="carousel-item active">
+          <img src="./Images/chickenrice.jpg" alt="chickenrice" class="d-block  w-100">
+        </div>
+        <div class="carousel-item ">
+          <img src="./Images/wholechicken.jpg" alt="wholechicken" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/butternaan.jpg" alt="butternaan" class="d-block w-100">
+        </div>
+      </div>
+
+      <!-- controls for carousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#intro-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#intro-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+      
+   <h1 style="text-align: center;">Testimonials</h1>
+  <!-- Testimonials - Reviews  -->
+   <div class="card-group">
+  <div class="card w-10">
+    <img src="./Images/Shahrukhkhan.jpg" class="card-img-top"  alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Shahrukhkhan</h5>
+      <p class="card-text">TasteGood is one of the oldest establishments of Hyderabadi Biryani. It was regarded as one of the ultimate places to get a real taste of the Hyderabadi Biryani. The place also offers a takeaway and has a parking lot with valet service. TasteGood is also known for it's great service right from the days of early independence.</p>
+      <p class="card-text"><small class="text-muted">Last updated 36 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card w-10">
+    <img src="https://i.gadgets360cdn.com/large/Virat-Kohli-Image-600_1517390910479.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Virat Kohli</h5>
+      <p class="card-text">TasteGood taste authenticity is pretty unique and has its own style of making,taste and quality. The aroma of ingredients is fabulous. I would like to recommend Every person who visits Hyderabad to have atleast a meal here. I am sure you'll enjoy it. And also they have a combination too which can save you some money. Must visit place in Hyderabad.
+        </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card w-10">
+    <img src="https://s3.ap-south-1.amazonaws.com/img.braingainmag.com/userfiles/images/Mahendra-Singh-Dhoni.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">MS Dhoni</h5>
+      <p class="card-text">Love the food here! This place is a hidden gem for Malaysian food here in Queens. Pretty much everything is good here, especially the haiyanese chicken with rice and the meat satay skewers! Highly recommend this spot </p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Remove the container if you want to extend the Footer to full width. -->
+
+
+  <footer class="text-white text-center text-lg-start" style="background-color: #931a25;">
+  <!-- Grid container -->
+  <div class="container pt-5" >
+    <!--Grid row-->
+    <div class="row mt-2">
+
+      <!-- col1 -->
+      <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+        <!-- <h5 class="text-uppercase mb-4">About TasteGood™</h5>
+         -->
+         <div class="">
+          <a href=""><img src="./Images/Logo White.png" alt="" height="130" width="210"></a>
+       </div>
+
+       <h6 class="text-uppercase mb-0 text-center mt-3">FOLLOW US</h6>
+    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" id="b"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" id="b"></i></a>
+    <a href="https://twitter.com/"><i class="fa-brands fa-twitter" id="b"></i></a>
+        
+        
+      </div>
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">About TasteGood™</h5>
+
+        <p >
+          We provide the most tastiest foods come from particular regions, like a certain hills in Bordeaux, France, or a sunny vineyard in Tuscany.
+        </p>
+
+        
+
+        
+        
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <!-- <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
+
+        <div class="form-outline form-white mb-4">
+          <input type="text" id="formControlLg" class="form-control form-control-lg" />
+          <label class="form-label" for="formControlLg">Search</label>
+        </div> -->
+
+        <!-- <ul class="fa-ul" style="margin-left: 1.65em;">
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY 10012, US</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-envelope"></i></span><span class="ms-2">info@example.com</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567 88</span>
+          </li>
+          <li class="mb-3">
+            <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567 89</span>
+          </li>
+        </ul> -->
+        <div class="links" >
+
+          <h5 class="text-uppercase text-center">Quick Links</h5>
+            <ul >
+              <li class="text-center"><a href="" >Home</a></li>
+              <li class="text-center"><a href="" >Menu</a></li>
+              <li class="text-center"><a href="" >Branches</a></li>
+              <li class="text-center"><a href="" >About</a></li>
+              <li class="text-center"><a href="" >Contact</a></li>
+            </ul>
+        
+          </div>
+      </div>
+      <!--Grid column-->
+     
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-4">Opening hours</h5>
+
+        <table class="table text-center text-white">
+          <tbody class="font-weight-normal">
+            <tr>
+              <td>Mon - Thu:</td>
+              <td>8am - 9pm</td>
+            </tr>
+            <tr>
+              <td>Fri - Sat:</td>
+              <td>8am - 10pm</td>
+            </tr>
+            <tr>
+              <td>Sunday:</td>
+              <td>9am - 11pm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright:
+    <a class="text-white" href="#">TasteGood.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+ 
+<!-- <footer>
+  
+  <div class="img1">
+     <a href=""><img src="./Images/Logo White.png" alt="" height="130" width="210"></a>
+  </div>
+ 
+  <div class="links">
+
+  <p>Quick Links</p>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Menu</a></li>
+      <li><a href="">Branches</a></li>
+      <li><a href="">About</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+
+  </div>
+
+  <div class="social-media">
+    <p>FOLLOW US</p>
+    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" id="b"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" id="b"></i></a>
+    <a href="https://twitter.com/"><i class="fa-brands fa-twitter" id="b"></i></a>
+  </div>
+
+  <div class="footer1"> 
+
+  <h1 class="head">Get the TasteGood App</h1>
+  <p class="content">We will send you a link to your mail, open it on your phone to download the app</p>
+  <form action="">
+    <label for="" id="e-mail">Be-In-Touch</label>
+    <input type="email" name="e-mail">
+  </form>
+  </div>
+<br>
+  
+<div class="center">
+
+  <p class="para">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. 2022 © TasteGood™ Ltd. All rights reserved.</p>
+
+</div>
+</footer>  -->
+
+    <script src="./JavaScript/bootstrap.js"></script>
+    <script src="./JavaScript/script.js"></script>
+    
+</body>
+</html>
